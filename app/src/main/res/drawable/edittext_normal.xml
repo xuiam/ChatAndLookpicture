@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--背景颜色-->
+    <solid android:color="#4df2eded" />
+    <!--圆角-->
+    <corners android:radius="5dip" />
+    <!--边框 -->
+    <stroke
+        android:width="1dip"
+        android:color="#6af2eded" />
+    <!--shape中如果不通过android:shape来指定形状时，
+    默认是矩形，其中solid代表纯色，corners代表角，
+    radius越大，圆角越大，stroke代表边框线-->
+</shape>
+
